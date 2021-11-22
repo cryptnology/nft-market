@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.btn {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider transition ease-out duration-500;
+}
+
+.btn-card {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider transition ease-out duration-500 text-themeOrange border-themeOrange border-4 hover:bg-themeOrange hover:text-themeBlack mt-4;
+}
+
+.btn-card-cancel {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider transition ease-out duration-500 text-red-500 border-red-700 border-4 hover:bg-red-700 hover:text-themeYellow mt-4;
+}
+
+.border-card {
+  @apply border-b-2 mb-6  border-themeBlack border-opacity-10;
+}
+
+.social-icons {
+  @apply cursor-pointer tracking-wider transition ease-out duration-500 bg-themeBlack hover:text-themeOrange;
+}
+
+body {
+  background-color: #d6d6d6;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* padding: 1rem;
+  background-color: #202020;
+  text-align: center; */
+}
+
+.social {
+  /* transition: 0.3s ease; */
+  color: #d6d6d6;
+  /* border-radius: 60px;
+  padding: 6px;
+  cursor: pointer; */
+}
