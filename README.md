@@ -1,4 +1,4 @@
-# NFT Marketplace
+# NFT Market
 
 A DApp where you can mint your own NFTs, sell that NFT, cancel an unwanted NFT, re-instate a cancelled NFT or buy someone else's NFT that they placed on the open marketplace. You can also interact with the DApp on both the Rinkeby or Polygon (Mumbai) test networks.
 
