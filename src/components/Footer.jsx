@@ -1,4 +1,9 @@
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+  AiFillYoutube,
+} from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -36,8 +41,21 @@ const Footer = () => {
             </a>
           </div>
           <div className='social social-icons'>
-            <a href='mailto:jamie@cryptnology.dev'>
-              <AiOutlineMail size='2.1rem' />
+            <a
+              href='https://twitter.com/CryptnologyDev'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <AiFillTwitterCircle size='2.1rem' />
+            </a>
+          </div>
+          <div className='social social-icons'>
+            <a
+              href='https://www.youtube.com/channel/UCNkysjhjqXLpfONboDG1E_Q'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <AiFillYoutube className='ml-4' size='2.1rem' />
             </a>
           </div>
         </div>
