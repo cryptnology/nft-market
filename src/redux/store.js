@@ -1,5 +1,5 @@
 import { applyMiddleware, compose, createStore, combineReducers } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
+// import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 // import { createLogger } from 'redux-logger';
 import blockchainReducer from './blockchain/blockchainReducer';
@@ -12,8 +12,8 @@ const rootReducer = combineReducers({
 
 const middleware = [thunk];
 const composeEnhancers = compose(
-  applyMiddleware(...middleware),
-  composeWithDevTools()
+  applyMiddleware(...middleware)
+  // composeWithDevTools()
 );
 
 const configureStore = () => {
